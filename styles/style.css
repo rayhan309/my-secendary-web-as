@@ -241,14 +241,16 @@
 
 /* section 4 div  styles area  */
 .section-4-div-1{
-    width: 366px;
+   width: 366px;
     height: 206px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
 }
 .section-4-div-2{
@@ -257,9 +259,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/deal-bloom.png);
+    background-image: url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
 }
 .div-1-item-titlt{
@@ -404,6 +408,48 @@
     background-color: rgba(233, 90, 8, 1);
     border: none;
 }
+/* section 4 styles area */
+.section-4-div-1{
+    width: 361px;
+    height: 185px;
+    margin-bottom: 15px;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+}
+.section-4-div-2{
+    width: 361px;
+    height: 185px;
+    margin-bottom: 0px;
+    /* border: 1px solid black; */
+    border-radius: 0px;
+}
+.section-4-div-container{
+   flex-direction: column;
+    gap: 20px;
+    /* border: 2px solid navy; */
+}
+
+.section-4-div-4{
+    width: 361px;
+    height: 185px;
+    
+    border-radius: 14px;
+    /* border: 2px solid salmon; */
+}
+
+.section-4-title{
+    
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+
+
+.section-4-p{
+    
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
 /* footer styles area  */
 .div-container{
 
