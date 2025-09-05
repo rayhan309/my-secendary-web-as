@@ -216,6 +216,29 @@
     margin-left: 24px;
 }
 
+/* section 4 styles area  */
+.section-4{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-4-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 130px;
+    margin-bottom: 5px;
+}
+.section-4-title-color{
+    color: rgba(233, 90, 8, 1);
+}
+.section-4-p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+
      /* media quari styles section */
 
 @media screen and (max-width: 576px) {
